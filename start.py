@@ -36,7 +36,7 @@ class InstagramBot:
 
         self.driver.find_element_by_css_selector('.aOOlW.HoLwm').click()
         
-        profileBtn = self.driver.find_element_by_xpath("//a[@href='/eduardpereira/']")
+        profileBtn = self.driver.find_element_by_xpath("//a[@href='/***/']")
         profileBtn.click()
 
         print(len("LEN:" + str(self.driver.find_element_by_css_selector('.9AhH0'))))
