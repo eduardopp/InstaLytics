@@ -47,6 +47,6 @@ class InstagramBot:
 
 
 
-bot = InstagramBot('eduardpereira', 'b0dc08c9e5ba')
+bot = InstagramBot('')
 bot.login()
 bot.myProfile()
